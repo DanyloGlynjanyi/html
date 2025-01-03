@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #ff9a8b, #d4a5a5);
+    height: 100vh;
+    margin: 0;
+    font-size: 15.5px;
+}
+
+.box-container {
+    background-color: #2c3e50;
+    width: 15%;
+    height: 30vh;
+    transition: 1.5s;
+}
+
+.wrapper {
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.box-container:hover {
+    border-radius: 0;
+    border: 3px solid #ff6f61;
+    transform: scale(1.1);
+    transition: 2s;
+}
+h2{
+    margin-left:10px ;
+}

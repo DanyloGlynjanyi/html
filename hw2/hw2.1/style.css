@@ -1,0 +1,40 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:darkgray 1px solid;
+    border-radius: 15px;
+    width: 18vw;
+    height: 35vh;
+    flex-direction: column;
+
+}
+p{
+    font-size: 20px;
+    font-family: cursive;
+    color: orangered;
+}
+.box-container img{
+    width: 50%;
+    display: flex;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+hr{
+    margin-top: 5vh;
+}

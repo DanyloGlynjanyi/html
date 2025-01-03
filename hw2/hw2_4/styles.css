@@ -1,0 +1,42 @@
+.header {
+    margin: 0;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.main {
+    width: 13vw;
+    height: 25vh;
+    background-color: #d4a5a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rubik {
+    font-family: "Rubik Pixels", serif;
+    font-weight: 400;
+}
+
+.sedgwick {
+    font-family: "Sedgwick Ave Display", serif;
+    font-weight: 400;
+}
+
+
+.dancing {
+    font-family: "Dancing Script", serif;
+    font-weight: 400;
+}
+.fjalla{
+    font-family: "Fjalla One", serif;
+    font-weight: 400;
+}
+.indie{
+    font-family: "Indie Flower", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+

@@ -1,0 +1,25 @@
+.wrapper {
+    height: 35vh;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.sidebar {
+    width: 100px;
+    height: 100px;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 16%, rgba(9, 9, 121, 1) 46%, rgba(0, 212, 255, 1) 100%);
+    transition: 2.5s;
+}
+
+.sidebar:hover {
+    border-radius: 50%;
+    border: 3px solid rgb(2, 0, 36);
+    background: rgb(34, 193, 195);
+    background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(244, 45, 253, 1) 16%, rgba(144, 27, 170, 1) 32%);
+] transition: 3 s;
+}
