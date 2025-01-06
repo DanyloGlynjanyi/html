@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Arial Black", Helvetica, sans-serif;
+
+
+}
+
+.section_footer {
+    height: 50vh;
+    width: 100vw;
+    background-color: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section_header {
+    height: 50vh;
+    background-color: #d4a5a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+    font-size: 1.3em;
+}
