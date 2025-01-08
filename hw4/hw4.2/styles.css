@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header,footer {
+    background: #D9D9D9;
+    height: 20vh;
+}
+
+
+main{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.main-container{
+    background: #C0BDBD;
+    height: 60vh;
+    width: 25vw;
+}
+.central-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top-container{
+    background: #827878;
+    height: 27vh;
+    width: 50vw;
+}
+.bottom-container{
+    background: #B7ADAD;
+    height: 33vh;
+    width: 50vw;
+}
