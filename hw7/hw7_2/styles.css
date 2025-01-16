@@ -314,4 +314,10 @@ footer>div{
     height: 96px;
     flex-shrink: 0;
     background: #24204A;
+    color: #FFF;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
 }
