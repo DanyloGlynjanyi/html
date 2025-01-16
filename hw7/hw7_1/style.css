@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin-top:17.791vw ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+svg {
+    position: absolute;
+    top:-3.307vw;
+    width:6.614vw;
+    height: 6.614vw;
+
+}
+img{
+    position: absolute;
+    top:-1.918vw;
+    width: 3.968vw;
+    height: 3.968vw;
+}
+
+.tool {
+    width:13.715vw;
+    height:21.109vw;
+    flex-shrink: 0;
+    border: 0.265vw solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+}
+
+.chessboard {
+    width: 13.801vw;
+    height: 21.109vw;
+    flex-shrink: 0;
+    border: 0.265vw solid #65856E;
+    background: rgba(217, 217, 217, 0.30);
+}
+
+.battle {
+    width: 13.801vw;
+    height: 21.109vw;
+    flex-shrink: 0;
+    border: 0.265vw solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+p {
+    color: #000;
+    text-align: center;
+    font-size: 1.323vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h4 {
+    color: #000;
+    font-size: 2.646vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
